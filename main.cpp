@@ -3,7 +3,7 @@ using namespace std;
 #include "lib.h"
 
 int main() {
-    int n ;
+    int n;
     cin >> n;
     bool risultato = funzione(n);
     if (risultato == true){
