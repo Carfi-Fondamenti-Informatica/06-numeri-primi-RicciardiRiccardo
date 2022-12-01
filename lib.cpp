@@ -1,20 +1,21 @@
 #include "lib.h"
-bool funzione (int n) {
-    int i=1,x;
 
-    if(n>1)
-        do{
-            i++;
-            x=n%i;
-        }while(x);
-    if(i==n){
-
+bool NumeroPrimo (int n, int k)
+{
+    n--;
+    if (n > 1)
+    {
+        if (k%n == 0)
+        {
+            return false;
+        }
+        else
+        {
+            NumeroPrimo(n,k);
+        }
+    }
+    else
+    {
         return true;
-
-
     }
-    else{
-        return false;
-    }
-
 }
