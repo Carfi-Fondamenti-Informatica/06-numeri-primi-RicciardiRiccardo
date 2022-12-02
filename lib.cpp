@@ -1,21 +1,11 @@
 #include "lib.h"
-
-bool NumeroPrimo (int n, int k)
-{
-    n--;
-    if (n > 1)
-    {
-        if (k%n == 0)
-        {
+bool numprimo(int a, int i){
+    if(a % i == 0){
+        if(a == i){
+            return true;
+        }
+        else{
             return false;
         }
-        else
-        {
-            NumeroPrimo(n,k);
-        }
     }
-    else
-    {
-        return true;
-    }
-}
+    numprimo(a, i + 1);}
