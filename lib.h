@@ -1,4 +1,4 @@
-#ifndef Es_6_LIB_H
-#define Es_6_LIB_H
+#ifndef ESERCITAZIONE_6_LIB_H
+#define ESERCITAZIONE_6_LIB_H
 bool NumeroPrimo (int, int);
-#endif //Es_6_LIB_H 
+#endif //ESERCITAZIONE_6_LIB_H 
