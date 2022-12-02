@@ -9,3 +9,4 @@ bool numprimo(int a, int i){
         }
     }
     numprimo(a, i + 1);}
+
